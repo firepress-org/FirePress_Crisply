@@ -12,6 +12,10 @@
 			<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
+
+      {{!-- Customisation by https://github.com/firepress-org --}}
+      {{>custom_header}}
+
 			{{! Responsive Meta Tags }}
 	    <meta name="HandheldFriendly" content="True" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,10 +39,12 @@
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="https://github.com/kathyqian/crisp" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+			<section id="footer-message"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}.&nbsp;&nbsp;Driven by firepress.org and published with ghost.org</section>
 		</footer>
 	{{ghost_foot}}
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
+
+      {{!-- Customisation by https://github.com/firepress-org --}}
+    {{>custom_footer}}
+
 	</body>
 </html>
