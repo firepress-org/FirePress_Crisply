@@ -21,29 +21,29 @@ https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
 ---
 
 
-## Unreleased - Work in progress
+## 2.1.1
 ### ⚡️ Updates
-- See FirePress | Roadmap at https://trello.com/b/0fCwwzqc/firepress-roadmap
+- 7c088bd6 Now using our standard CHANGELOG template
+- 2046de44 README update
+- eb911733 Major update for highlight-js: Added agate.css to better control how it renders
+- ffe20ffc Updated highlight-js 9.14.2 AND updated Font Awesome 5.7.2
+- 10ea606f README update
+- 2da45650 minify buttons that come with this theme
+- d8376166 using minify
+- 0b094f56 minified
+- a249a798 udpate, links are not bold anymore
+- 0819e37d Simplify markdown example
+- 3b05c2b0 fix lint
+
+### 🐛 Fix bug
+- aaf0438d Fix button CSS styles. Makes them more universal
 
 
-## [0.0.2] - 1910-12-30 / latest
+## 2.1.0
 ### ⚡️ Updates
-- This text is used as a placeholder.
-- Words that will follow won't make any sense
-
-### 🚀 Added (new feature) 
-- This text is used as a placeholder.
-- Words that will follow won't make any sense
-
-### 🛑 Removed
-- Words that will follow won't make any sense
-
-
-## [0.0.1] - 1910-11-29
-### 🚀 Added (new feature) 
-- This text is used as a placeholder.
-- Words that will follow won't make any sense
-
-### ⚡️ Updates
-- This text is used as a placeholder.
-- Words that will follow won't make any sense
+- 5cb36fc5 update to 2.1.0
+- 8626fd95 Add license
+- 55235c13 major README update
+- f8b6ba4d Add notes
+- 0a75e584 remove highlight and font awesome because it's already part of our customizations
+- b6e7d28b Adding core customizations
